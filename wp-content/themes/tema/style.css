@@ -1,0 +1,143 @@
+/*
+Theme Name: BocaVerda
+Author: Hemera
+Author URI: https://hemera.es
+Version: 1.0
+Text Domain: bocaverda
+*/
+
+
+
+/* IMAGES */
+
+.wp-block-post-featured-image {
+    margin-bottom: 0;
+}
+
+.framed img {
+    padding: 3rem;
+}
+
+
+
+/* PAGE HEADER */
+
+@media (min-width: 1200px) {
+    .page-header__intro {
+        max-width: 80%;
+    }
+}
+
+
+
+
+
+
+
+/* productos */
+
+
+.img_product {
+    position: relative;
+    z-index: 0;
+    margin-top: -150px;
+    height: 600px;
+    
+}
+
+/* Header */
+
+.topbar{
+    height: 30px;
+    position:relative;
+    z-index: 30;
+}
+
+/*logo*/
+
+
+/* Home */
+
+
+
+.wp-block-image.size-large.is-resized{ /*logo*/
+    margin-top: -190px;
+    position: absolute;
+    margin-left: -10px;
+    
+}
+
+.title_home{
+    margin-bottom: -100px;
+}
+
+.title_home h2 {
+    padding-left: 0px;
+
+}
+
+.wp-block-group.is-layout-constrained {
+    margin-top: 40px;
+}
+
+.title_home p {
+    padding-left: 0px;
+}
+
+.text_home { /* h1 de home*/
+    padding: 10px;
+}
+
+.link_header:hover{ /* menu */
+    color: rgb(249, 206, 104);
+}
+
+/*Page products*/
+
+.img_header_product {
+position: relative;
+margin-top: 0px;
+z-index: 1;
+}
+
+/*Header white*/
+.header_white{
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+.menu_white {
+    position:relative;
+    margin-top: -100px;
+    z-index: 3;
+}
+
+.logo_white {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    padding-top: 160px;
+    z-index: 3;
+}
+
+/*PAge restaurant*/
+
+.img_header_restaurant {
+    position: relative;
+    margin-top: -100px;
+    z-index: 1;
+
+}
+
+.recipe__header {
+    position: relative;
+    margin-top: -100px;
+    z-index: 1;
+}
+
+.rest_header {
+    position: relative;
+    margin-top: -100px;
+    z-index: 1;
+}
